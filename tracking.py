@@ -13,7 +13,7 @@ model.eval()
 deepsort = DeepSort(max_age=30, n_init=3, nn_budget=100)
 
 # Open video file
-cap = cv2.VideoCapture('data/videos/sperm.mp4')
+cap = cv2.VideoCapture('data/videos/sperm2.mp4')
 
 # Get video properties
 fps = int(cap.get(cv2.CAP_PROP_FPS))
